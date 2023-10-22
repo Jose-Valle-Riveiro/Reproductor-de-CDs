@@ -6,6 +6,7 @@
 #include <algorithm>
 #include <queue>
 #include <fstream>
+#include <filesystem>
 #include "Cancion.h"
 
 using namespace System;
@@ -24,6 +25,7 @@ struct CD {
 //LA CLASE CDs CONTIENE TODOS LOS METODOS 
 ref class CDs
 {
+	
 	Cancion* CancionActual = nullptr;
 public:
 
