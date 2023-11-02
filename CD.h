@@ -24,7 +24,7 @@ struct CD_ELEMENTS {
 };
 
 //LA CLASE CDs CONTIENE TODOS LOS METODOS 
-ref class CDs
+ class CDs
 {
 private:
 	Cancion* Reproduciendo = nullptr;
@@ -42,7 +42,7 @@ public:
 	Cancion* ReturnCancionActual();
 	void ReproduccionSiguiente(std::queue<Cancion>& Cola);
 	void Imprimir(std::queue<Cancion>& Cola);
-	void Reinicio(std::queue<Cancion>& Cola, std::list<CD_ELEMENTS> &Albums);
+	void Reinicio(std::queue<Cancion>& Cola, std::list<CD_ELEMENTS>& Albums);
 	
 };
 
